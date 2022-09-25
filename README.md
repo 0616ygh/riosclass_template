@@ -5,8 +5,15 @@
 | :exclamation: Important Note            |
 |-----------------------------------------|
 
-## Please fill in your project documentation in this README.md file 
-
 Refer to [README](docs/source/quickstart.rst) for a quick start of how to use caravel_user_project
 
 Refer to [README](docs/source/index.rst) for this sample project documentation. 
+
+## Notice
+Here is RIOS Advanced Microprocessor Design Course Lab Template.
+
+Your RTL and C model should be placed in verilog/newrtl and verilog/cmodel.
+
+Your lab report should be placed in verilog/rpt.
+
+We use this template for lab 1, lab 2, lab 3, final project and OpenMPW precheck. 
