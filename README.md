@@ -12,7 +12,7 @@ Refer to [README](docs/source/index.rst) for this sample project documentation.
 ## Notice
 Here is RIOS Advanced Microprocessor Design Course Lab Template.
 
-Your RTL and C model should be placed in verilog/newrtl and verilog/cmodel.
+Your RTL and C model should be placed in verilog/labrtl and verilog/cmodel.
 
 Your lab report should be placed in verilog/rpt.
 
