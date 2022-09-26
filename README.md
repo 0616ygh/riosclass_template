@@ -13,27 +13,32 @@ Refer to [README](docs/source/index.rst) for this sample project documentation.
 ## Notice
 Here is RIOS Advanced Microprocessor Design Course Lab Template.
 
-Your RTL and C model should be placed in verilog/labrtl and verilog/cmodel.
+Your RTL and C model should be placed in riosclass_template/verilog and riosclass_template/cmodel.
 
-Your lab report should be placed in verilog/rpt.
+Your lab report should be placed in riosclass_template/rpt.
 
 We use this template for lab 1, lab 2, lab 3, final project and OpenMPW precheck. 
 
 ## Lab 1 Notice
 
-The RTL code path: riosclass_template\verilog\rtl\labrtl
+The RTL code path: riosclass_template\verilog\rtl\lab_1\src
 
 GreenRio, AKA hehe, is a small RISC-V CPU. 
 
 For Lab 1:
 
-1. riosclass_template\verilog\rtl\labrtl\hehe\src is the GreenRio RTL source code path. You will use all files in 'core_empty'(except 'mmu'), 'cache__sram_in_cache', 'params.vh' and 'hehe.v' for simulation and synthesis.
+### RTL
+1. "riosclass_template\verilog\rtl\lab_1\src" is the GreenRio RTL source code path. Some tests have been passed. You will use all files in 'core_empty'(except 'mmu'), 'cache', 'params.vh', 'bus_arbiter.v' and 'hehe.v' for simulation and logic synthesis.
     1. core_empty:  the function_unit modules, pipeline, and core_empty top RTL codes; 'core_empty' means that the source codes here are the pure core parts of the CPU, excluding cache and sram.
     
-    2. cache__sram_in_cache: the cache parts of CPU; the sram is instantiated at the top of the cache module.
+    2. cache: the cache parts of CPU; the sram is instantiated at the top of the cache module.
+
+    3. bus_arbiter: communication bus between SoC and core.
+
+    4. hehe: the top of GreenRio CPU.
     
-    3. cache__sram_out_cache: the SRAMs are out of cache_top; that means cache module is an interface between sram and core_empty.
 
 2. Other files should not be used in lab1, but will be used in later labs.
 
+3. You can access the spec documentaion at rtl\lab_1\readme.md.
 
