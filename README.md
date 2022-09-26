@@ -40,5 +40,5 @@ For Lab 1:
 
 2. Other files should not be used in lab1, but will be used in later labs.
 
-3. You can access the spec documentaion at rtl\lab_1\readme.md.
+3. You can access the spec documentaion at riosclass_template\spec\HeHecore.md.
 
